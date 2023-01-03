@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Countdown Timers and World Clocks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple toy SPA including two tools: Countdown Timers and World Clocks.
+It is deployed to https://atry.github.io/timers-and-clocks/ via GitHub Actions.
+
+## Tech Stack
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). In addition, the following libraries are used:
+
+- [MUI](https://mui.com/) is used for UI components;
+- [usehooks-ts](https://usehooks-ts.com/) is used to create React hooks.
+- [TanStack Query](https://tanstack.com/query/v4) is used to call RESTful APIs.
+- [Nock](https://github.com/nock/nock) is used for recording and replaying fixtures in tests.
 
 ## Available Scripts
 
@@ -18,6 +28,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `NOCK_BACK_MODE=update npm test -- --watchAll=false --update-snapshot`
+
+Update Nock Back fixtures and Jest snapshots.\
+See [Nock Back](https://github.com/nock/nock/blob/d9bab65/README.md#nock-back) and [Jest Snapshot Testing](https://jestjs.io/docs/snapshot-testing) for more information.
 
 ### `npm run build`
 
