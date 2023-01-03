@@ -31,7 +31,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `NOCK_BACK_MODE=update npm test -- --watchAll=false --update-snapshot`
 
-Update Nock Back fixtures and Jest snapshots.\
+Updates Nock Back fixtures and Jest snapshots.\
 See [Nock Back](https://github.com/nock/nock/blob/d9bab65/README.md#nock-back) and [Jest Snapshot Testing](https://jestjs.io/docs/snapshot-testing) for more information.
 
 ### `npm run build`
