@@ -12,7 +12,6 @@ test('select a WorldClock', async () => {
   const queryClient = new QueryClient({
     defaultOptions: {
       queries: {
-        // turns retries off
         retry: false,
       },
     },
