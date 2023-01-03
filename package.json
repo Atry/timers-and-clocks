@@ -2,6 +2,7 @@
   "name": "timer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://atry.github.io/timers-and-clocks/",
   "dependencies": {
     "@emotion/styled": "^11.10.5",
     "@fontsource/roboto": "^4.5.8",
