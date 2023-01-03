@@ -22,7 +22,6 @@ function CountdownTimer(props: { durationSeconds: number }) {
         dayjs('0000-00-00').add(remainingSeconds, 'seconds').format('HH:mm:ss')
       }</>
   };
-
 }
 
 export default function CountdownTimers() {
