@@ -5,7 +5,7 @@ import { useState } from 'react';
 function WorldClock(props: { timezone: string }) {
   const { isLoading, data } = useQuery({
     queryFn: async () => {
-      const response = await fetch(`http://worldtimeapi.org/api/timezone/${props.timezone}`, {
+      const response = await fetch(`https://worldtimeapi.org/api/timezone/${props.timezone}`, {
         method: 'GET',
         headers: { Accept: "application/json" },
       });
@@ -47,7 +47,7 @@ function LoadedWorldClocks(props: { timezones: string[] }) {
 export default function WorldClocks() {
   const { isLoading, data } = useQuery({
     queryFn: async () => {
-      const response = await fetch('http://worldtimeapi.org/api/timezone', {
+      const response = await fetch('https://worldtimeapi.org/api/timezone', {
         method: 'GET',
         headers: { Accept: "application/json" },
       });
